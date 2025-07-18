@@ -47,15 +47,15 @@ Este proyecto es una solución de backend basada en microservicios para la gesti
 
 ### 3. ms-user
 - **Función:** Gestión de usuarios.
-- **URL pública:** [Agrega aquí el link de Railway cuando lo despliegues]
+- **URL pública:** [https://ms-user-production-029a.up.railway.app](https://ms-user-production-029a.up.railway.app)
 
-#### Endpoints
+#### Endpoints (disponibles en el link público)
 | Método | Endpoint           | Descripción                | Ejemplo completo |
 |--------|--------------------|----------------------------|------------------|
-| GET    | /api/usuarios      | Listar todos los usuarios  | [GET](/api/usuarios) |
-| GET    | /api/usuarios/{id} | Obtener usuario por ID     | [GET](/api/usuarios/1) |
-| POST   | /api/usuarios      | Crear un usuario           | [POST](/api/usuarios) |
-| DELETE | /api/usuarios/{id} | Eliminar usuario por ID    | [DELETE](/api/usuarios/1) |
+| GET    | /api/usuarios      | Listar todos los usuarios  | [GET](https://ms-user-production-029a.up.railway.app/api/usuarios) |
+| GET    | /api/usuarios/{id} | Obtener usuario por ID     | [GET](https://ms-user-production-029a.up.railway.app/api/usuarios/1) |
+| POST   | /api/usuarios      | Crear un usuario           | [POST](https://ms-user-production-029a.up.railway.app/api/usuarios) |
+| DELETE | /api/usuarios/{id} | Eliminar usuario por ID    | [DELETE](https://ms-user-production-029a.up.railway.app/api/usuarios/1) |
 
 **Ejemplo de body para POST:**
 ```json
